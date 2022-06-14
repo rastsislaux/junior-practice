@@ -13,5 +13,7 @@ sudo apt install texlive-full
 ### Сборка:
 
 ```sh
+git clone https://github.com/ungaf/junior-practice
+cd junior-practice
 pdflatex --shell-escape -interaction nonstopmode report.tex
 ```
