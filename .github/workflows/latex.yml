@@ -36,7 +36,7 @@ jobs:
 
         # -jobname=<name> дает возможность поменять имя выходного файла
 
-        args: -jobname=report -pdf -interaction=nonstopmode --shell-escape
+        args: -jobname=report -pdf -interaction=nonstopmode -f --shell-escape
 
         compiler: latexmk
 
